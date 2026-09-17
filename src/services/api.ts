@@ -1,6 +1,6 @@
 import type { UploadResponse, AnalysisResponse } from '../types';
 
-const API_BASE_URL = 'https://airesumematcher-8gg5.onrender.com/api';
+const API_BASE_URL = 'https://airesumematcher-8gg5.onrender.com/api/analysis';
 
 export const apiService = {
   uploadResume: async (file: File): Promise<UploadResponse> => {
